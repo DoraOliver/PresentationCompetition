@@ -1,0 +1,21 @@
+﻿  speechManager.cpp
+C:\DevStudy\CppSeries\PresentationCompetition\PresentationCompetition\speechManager.cpp(280,19): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\numeric(34,26): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\numeric(43,17): message : see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=float,
+              _InIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+C:\DevStudy\CppSeries\PresentationCompetition\PresentationCompetition\speechManager.cpp(161,16): message : see reference to function template instantiation '_Ty std::accumulate<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>,float>(const _InIt,const _InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=float,
+              _InIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<double>>>
+          ]
+  PresentationCompetition.vcxproj -> C:\DevStudy\CppSeries\PresentationCompetition\x64\Debug\PresentationCompetition.exe
